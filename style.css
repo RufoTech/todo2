@@ -1,0 +1,58 @@
+.form-control {
+    width: 50%;
+   
+}
+ul {
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+button {
+    background-color: transparent;
+    fill:#fff;
+    color:#fff;
+    font-size: 33px;
+    border: none;
+}
+
+.hundurluk {
+    height: 50vh;
+}
+
+.task {
+    margin: 0 auto;
+    width: 50%;
+    background: #7474BF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 20px 10px;
+color:#fff;
+transition:  1.3s ease;
+}
+
+
+.done {
+    opacity: .4;
+   
+}
+
+.task.done  li {
+    text-decoration: line-through !important;
+}
+
+
+
+.delete {
+    display: none !important;
+}
+/* 
+.fa-solid, .fa-regular {
+    pointer-events: none;
+} */
